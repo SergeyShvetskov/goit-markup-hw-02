@@ -1,0 +1,266 @@
+:root {
+    --brand-color-blue-light: #2196F3;
+    --brand-color-blue: #3f51b5;
+    --brand-color-black: #212121;
+    --brand-color-gray: #757575;
+    --brand-color-gray-light: #F5F4FA;
+    --brand-color-white: #FFFFFF;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: var(--brand-color-black);
+}
+.site-nav-element {
+    text-decoration: none;
+}
+.site-nav-element:hover, .site-nav-element:focus {
+    color: var(--brand-color-blue-light);
+}
+.auth-nav-element {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;    
+    color: var(--brand-color-gray);
+}
+.auth-nav-element:hover, .auth-nav-element:focus {
+    color: var(--brand-color-blue-light);
+}
+.title {    
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+.photo-section {
+    padding: 94px 215px;
+}
+.photos {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-list {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo {    
+    text-decoration: none;
+    font-size: 26px;
+    color: #000000;
+    margin: 24px;
+    font-family: 'Raleway', sans-serif;    
+    font-weight: 700;    
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.logo span{
+    color: var(--brand-color-blue-light);
+}
+.logo-header {
+    padding-left: 215px;
+}
+.page-header {    
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.hero {
+    width: auto;
+    height: 600px;
+    background: #2F303A;
+}
+.hero-title {
+    padding-top: 200px;
+    text-transform: uppercase;
+    text-align: center;    
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    color: var(--brand-color-white);
+}
+
+.personal {
+    margin: 0;
+    width: auto;
+    height: 648px;    
+    background: var(--brand-color-gray-light);
+}
+.personal-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 94px;
+    text-align: center;
+}
+
+.personal-text {   
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-gray);
+}
+.photo-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;    
+}
+.site-nav {
+    display: flex;
+    flex-direction: row;    
+}
+.site-nav li {
+    list-style: none;
+}
+.auth-nav {
+    display: flex;
+    flex-direction: row;
+}
+.auth-nav li {
+    list-style: none;
+}
+.block-list{
+    margin-top: 94px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;    
+}
+.block {    
+    height: 101px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.block-title {
+    margin: 10px 0;    
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+}
+.block-text {
+    margin: 0;    
+    font-size: 14px;
+    line-height: 24px; 
+    letter-spacing: 0.03em;
+    color: var(--brand-color-gray);
+
+}
+.photos-title { 
+    margin-top: 94px;    
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;    
+}
+.photo {
+    display: grid;
+    grid: 30px;
+    list-style: none;
+}
+.footer {    
+    width: auto;
+    height: 252px;
+    left: 0px;
+    background: #2F303A;
+}
+.logo-footer {
+    margin: 0;    
+    padding-left: 215px;
+    padding-top: 60px;
+    color: var(--brand-color-white);
+}
+.adress {
+    margin-left: 215px;    
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-white);
+    font-style: normal;
+    
+}
+.adress-link-telefone {
+    list-style: none;
+    margin-left: 215px;   
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;    
+}
+.adress-link-telefone:hover, .adress-link-telefone:focus {    
+    color: var(--brand-color-blue-light);
+}
+.button {
+    cursor: pointer;
+    border: 0;
+    margin: 4px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: var(--brand-color-gray-light);
+    border-radius: 4px;    
+}
+.button:hover, .button:focus {
+    color: var(--brand-color-white);
+    background: var(--brand-color-blue-light);
+}
+.buttons {    
+    list-style: none;
+    display: flex;
+    justify-content: center;    
+}
+.portfolio-cards {
+    justify-content: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns:400px 400px 400px;
+}
+.portfolio-card-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;     
+    letter-spacing: 0.06em;    
+    color: var(--brand-color-black);
+}
+.portfolio-card-text {
+    margin: 0;   
+    line-height: 30px; 
+    letter-spacing: 0.03em;    
+    color: var(--brand-color-gray);
+}
+
+/*
+/* Застосується до всіх тегів з класом title 
+.title {
+    
+}
+
+/* Застосується до всіх тегів з класом text 
+.text {
+    color: brown;
+    font-size: 18px;
+}
+
+/* Застосується до всіх тегів з класом link */
+.link {
+    text-decoration: none;    
+}
+
+
