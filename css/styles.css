@@ -13,8 +13,7 @@
     list-style: none;    
 }
 .link {
-    text-decoration: none;
-    /* line-height = 16.41px / 14px = 1.172*/
+    text-decoration: none;    
     line-height: 1.172;
 }
 .page {
@@ -47,8 +46,7 @@
 .logo {        
     font-size: 26px;
     color: var(--brand-color-black);    
-    font-family: 'Raleway', sans-serif;     
-    /* line-height = 30.52px / 26px =  1.174*/
+    font-family: 'Raleway', sans-serif;    
     line-height: 1.174;    
 }
 .logo span{
@@ -67,8 +65,7 @@
     text-transform: uppercase;
     text-align: center;    
     font-size: 44px;
-    font-weight: 900;
-    /* line-height = 60px / 44 px = 1.364*/
+    font-weight: 900;    
     line-height: 1.364;
     letter-spacing: 0.06em;
     color: var(--brand-color-white);
@@ -79,34 +76,29 @@
 }
 .photo-title {
     font-weight: 500;
-    font-size: 16px;
-    /* line-height = 18.75px / 16px = 1.172*/
+    font-size: 16px;    
     line-height: 1.172;
     text-align: center;    
 }
-.personal-text {
-    /* line-height = 18.75px / 16px = 1.172*/
+.personal-text {    
     line-height: 1.172;
     text-align: center;    
     color: var(--brand-color-gray);
 }
 /* Секция картинок */
 .section-title {    
-    font-size: 36px;
-    /* line-height = 42.19px / 36px = 1.172 */
+    font-size: 36px;    
     line-height: 1.172;
     text-align: center;    
 }
 /* Секция коротких текстов */
 .block-title {     
-    font-size: 14px;
-    /* line-height = 16.41px / 14px = 1. 172 */
+    font-size: 14px;    
     line-height: 1.172;    
     text-transform: uppercase;    
 }
 .block-text {    
-    font-size: 14px;
-    /* line-height = 24px / 14px = 1.714 */
+    font-size: 14px;    
     line-height: 1.714;    
     color: var(--brand-color-gray);
 }
@@ -118,8 +110,7 @@
     background: var(--brand-color-black-dark);
 }
 .address, .address .link {    
-    font-size: 14px;
-    /* line-height = 24px / 14px = 1.714 */
+    font-size: 14px;    
     line-height: 1.714;    
     color: var(--brand-color-white);
     font-style: normal;    
@@ -151,13 +142,11 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-card-title {
-    font-size: 18px;
-    /* line-height = 36px / 18px = 2 */
+    font-size: 18px;    
     line-height: 2;     
     letter-spacing: 0.06em;
 }
-.portfolio-card-text {
-    /* line-height = 30px / 16px = 1.875 */
+.portfolio-card-text {    
     line-height: 1.875;      
     color: var(--brand-color-gray);
 }
