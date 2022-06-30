@@ -10,10 +10,12 @@
     --brand-color-address:rgba(255, 255, 255, 0.6);
 }
 .list {
-    list-style: none;
+    list-style: none;    
 }
 .link {
     text-decoration: none;
+    /* line-height = 16.41px / 14px = 1.172*/
+    line-height: 1.172;
 }
 .page {
     background-color: var(--brand-color-white);
@@ -36,8 +38,7 @@
 /* Хедер почта телефон */
 .auth-nav-element {    
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 14px;    
     letter-spacing: 0.02em;    
     color: var(--brand-color-gray);
 }
@@ -49,14 +50,15 @@
     font-size: 26px;
     color: var(--brand-color-black);    
     font-family: 'Raleway', sans-serif;     
-    line-height: 31px;
+    /* line-height = 30.52px / 26px =  1.174*/
+    line-height: 1.174; 
     letter-spacing: 0.03em;
 }
 .logo span{
     color: var(--brand-color-blue-light);
 }
 /* Герой */
-.hero .button {
+.hero .button {    
     color: var(--brand-color-white);
     background: var(--brand-color-blue-light);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -69,7 +71,8 @@
     text-align: center;    
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    /* line-height = 60px / 44 px = 1.364*/
+    line-height: 1.364;
     letter-spacing: 0.06em;
     color: var(--brand-color-white);
 }
@@ -77,8 +80,17 @@
 .personal { 
     background: var(--brand-color-gray-light);
 }
-.personal-text {   
-    line-height: 19px;
+.photo-title {
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height = 18.75px / 16px = 1.172*/
+    line-height: 1.172;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.personal-text {
+    /* line-height = 18.75px / 16px = 1.172*/
+    line-height: 1.172;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color-gray);
@@ -86,27 +98,24 @@
 /* Секция картинок */
 .section-title {    
     font-size: 36px;
-    line-height: 42px;
+    /* line-height = 42.19px / 36px = 1.172 */
+    line-height: 1.172;
     text-align: center;
     letter-spacing: 0.03em;
 }
-.photo-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;    
-}
+
 /* Секция коротких текстов */
 .block-title {     
     font-size: 14px;
-    line-height: 16px;
+    /* line-height = 16.41px / 14px = 1. 172 */
+    line-height: 1.172;
     letter-spacing: 0.03em;
     text-transform: uppercase;    
 }
 .block-text {    
     font-size: 14px;
-    line-height: 24px; 
+    /* line-height = 24px / 14px = 1.714 */
+    line-height: 1.714; 
     letter-spacing: 0.03em;
     color: var(--brand-color-gray);
 }
@@ -119,7 +128,8 @@
 }
 .address, .address .link {    
     font-size: 14px;
-    line-height: 24px;
+    /* line-height = 24px / 14px = 1.714 */
+    line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--brand-color-white);
     font-style: normal;    
@@ -141,8 +151,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    text-align: center;
+    line-height: 1.625;    
     letter-spacing: 0.03em;    
     border-radius: 4px;      
 }
@@ -153,11 +162,13 @@
 }
 .portfolio-card-title {
     font-size: 18px;
-    line-height: 36px;     
+    /* line-height = 36px / 18px = 2 */
+    line-height: 2;     
     letter-spacing: 0.06em;
 }
-.portfolio-card-text {    
-    line-height: 1.187; 
+.portfolio-card-text {
+    /* line-height = 30px / 16px = 1.875 */
+    line-height: 1.875; 
     letter-spacing: 0.03em;    
     color: var(--brand-color-gray);
 }
