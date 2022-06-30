@@ -20,7 +20,7 @@
 .page {
     background-color: var(--brand-color-white);
     font-family: 'Roboto', sans-serif;    
-    color: var(--brand-color-black-light);
+    color: var(--brand-color-black-light);    
 }
 /* Навигация сайта */
 .site-nav .link:hover, .site-nav .link:focus {
