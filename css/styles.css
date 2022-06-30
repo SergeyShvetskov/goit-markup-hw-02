@@ -18,28 +18,26 @@
     line-height: 1.172;
 }
 .page {
-    background-color: var(--brand-color-white);
-    font-family: 'Roboto', sans-serif;    
-    color: var(--brand-color-black-light);    
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    background-color: var(--brand-color-white);        
+    color: var(--brand-color-black-light);
 }
-/* Навигация сайта */
-.site-nav .link:hover, .site-nav .link:focus {
-    color: var(--brand-color-blue-light);
-}
-/* Подсветка текущей страницы */
-.site-nav .link.current {
+/* Подсветка */
+.site-nav .link:hover, .site-nav .link:focus, .site-nav .link.current {
     color: var(--brand-color-blue-light);
 }
 .site-nav .link {
     font-size: 14px;
     font-weight: 500;
+    letter-spacing: 0.02em;
     color: var(--brand-color-black-light);
 }
 /* Хедер почта телефон */
-.auth-nav-element {    
+.auth-nav-element {
     font-weight: 500;
     font-size: 14px;    
-    letter-spacing: 0.02em;    
+    letter-spacing: 0.02em;
     color: var(--brand-color-gray);
 }
 .auth-nav-element:hover, .auth-nav-element:focus {
@@ -51,8 +49,7 @@
     color: var(--brand-color-black);    
     font-family: 'Raleway', sans-serif;     
     /* line-height = 30.52px / 26px =  1.174*/
-    line-height: 1.174; 
-    letter-spacing: 0.03em;
+    line-height: 1.174;    
 }
 .logo span{
     color: var(--brand-color-blue-light);
@@ -85,14 +82,12 @@
     font-size: 16px;
     /* line-height = 18.75px / 16px = 1.172*/
     line-height: 1.172;
-    text-align: center;
-    letter-spacing: 0.03em;
+    text-align: center;    
 }
 .personal-text {
     /* line-height = 18.75px / 16px = 1.172*/
     line-height: 1.172;
-    text-align: center;
-    letter-spacing: 0.03em;
+    text-align: center;    
     color: var(--brand-color-gray);
 }
 /* Секция картинок */
@@ -100,23 +95,19 @@
     font-size: 36px;
     /* line-height = 42.19px / 36px = 1.172 */
     line-height: 1.172;
-    text-align: center;
-    letter-spacing: 0.03em;
+    text-align: center;    
 }
-
 /* Секция коротких текстов */
 .block-title {     
     font-size: 14px;
     /* line-height = 16.41px / 14px = 1. 172 */
-    line-height: 1.172;
-    letter-spacing: 0.03em;
+    line-height: 1.172;    
     text-transform: uppercase;    
 }
 .block-text {    
     font-size: 14px;
     /* line-height = 24px / 14px = 1.714 */
-    line-height: 1.714; 
-    letter-spacing: 0.03em;
+    line-height: 1.714;    
     color: var(--brand-color-gray);
 }
 /* Футер */
@@ -129,8 +120,7 @@
 .address, .address .link {    
     font-size: 14px;
     /* line-height = 24px / 14px = 1.714 */
-    line-height: 1.714;
-    letter-spacing: 0.03em;
+    line-height: 1.714;    
     color: var(--brand-color-white);
     font-style: normal;    
 }
@@ -148,11 +138,11 @@
     border: 0;
     margin: 4px;
     height: 38px;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;    
-    letter-spacing: 0.03em;    
+    letter-spacing: inherit;    
     border-radius: 4px;      
 }
 .button:hover, .button:focus {
@@ -168,7 +158,6 @@
 }
 .portfolio-card-text {
     /* line-height = 30px / 16px = 1.875 */
-    line-height: 1.875; 
-    letter-spacing: 0.03em;    
+    line-height: 1.875;      
     color: var(--brand-color-gray);
 }
